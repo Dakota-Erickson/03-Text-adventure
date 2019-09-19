@@ -74,11 +74,6 @@
         "desc": "To your North is Franklin Hall, and to your South is Dunn Woods ",
         "exits": [
           {
-            "verb": "NORTH",
-            "target": "Franklin Hall",
-            "condition": ""
-          },
-          {
             "verb": "SOUTH",
             "target": "Dunn Woods",
             "condition": ""
