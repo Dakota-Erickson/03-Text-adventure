@@ -43,38 +43,338 @@
     ],
     "rooms": {
       "START": {
-        "name": "Starting place",
-        "desc": "This is the place to start!",
+        "name": "Sample Gates",
+        "desc": "The large limestone archs rise in front of you! To the East is more of campus, and to your west lies Kirkwood Avenue. ",
         "exits": [
           {
             "verb": "NORTH",
-            "target": "LOC2",
+            "target": "Dunn Meadow",
             "condition": ""
           },
           {
             "verb": "SOUTH",
-            "target": "LOC32",
+            "target": "Law School",
             "condition": ""
           },
           {
             "verb": "WEST",
-            "target": "LOC2",
+            "target": "Kirkwood",
             "condition": ""
           },
           {
             "verb": "EAST",
-            "target": "LOC2",
+            "target": "East of Gates",
             "condition": ""
           }
         ],
         "inventory": []
       },
-      "LOC2": {
-        "name": "Location 2",
-        "desc": "Here is the second location.",
+      "East of Gates": {
+        "name": "East of Gates",
+        "desc": "To your North is Franklin Hall, and to your South is Dunn Woods ",
         "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Franklin Hall",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Dunn Woods",
+            "condition": ""
+          },
+          {
+            "verb": "WEST",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "IMU",
+            "condition": ""
+          }
         ],
         "inventory": []
-      }
+      },
+      "Dunn Meadow": {
+        "name": "Dunn Meadow",
+        "desc": " A large meadow stretches out in front of you. Some students are throwing a frisbee, while others study in the shade. ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "Stadium",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "EAST",
+            "target": "IMU",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+      },
+      "Law School": {
+        "name": "Law School",
+        "desc": "Students hurry in and out of the Law School. Some lose the papers they carry as the wind blows. ",
+        "exits": [
+          {
+            "verb": "NORTH",
+            "target": "START",
+            "condition": ""
+          },
+          {
+            "verb": "SOUTH",
+            "target": "Third Street",
+            "condition": ""
+          }
+        ],
+        "inventory": []
+    },
+    "Stadium": {
+      "name": "Stadium",
+      "desc": "Memorial Stadium rises high off the ground. The first game is still weeks away, but some students are getting their pre-pre-pre tailgating in.   ",
+      "exits": [
+        {
+          "verb": "SOUTH",
+          "target": "Dunn Meadow",
+          "condition": ""
+        },
+        {
+          "verb": "EAST",
+          "target": "Assembly Hall",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "IMU": {
+      "name": "IMU",
+      "desc": "The Indiana Memorial Union is one of the centerpieces of IU's Campus. Always a good place to eat lunch, meet for group projects, or find a quiet place to study.   ",
+      "exits": [
+        {
+          "verb": "SOUTH",
+          "target": "East of Gates",
+          "condition": ""
+        },
+        {
+          "verb": "WEST",
+          "target": "Dunn Meadow",
+          "condition": ""
+        },
+        {
+          "verb": "EAST",
+          "target": "Ballantine",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Dunn Woods": {
+      "name": "Dunn Woods",
+      "desc": "Birds chirp pleasently overheads, and the occasional squirrl runs from tree to tree. This would be a good place to study!",
+      "exits": [
+        {
+          "verb": "NORTH",
+          "target": "East of Gates",
+          "condition": ""
+        },
+        {
+          "verb": "SOUTH",
+          "target": "Third Street",
+          "condition": ""
+        },
+        {
+          "verb": "EAST",
+          "target": "Ballantine",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Kirkwood": {
+      "name": "Kirkwood",
+      "desc": "The bodies of drunk students litter the streets, while others stumble out of Kilroys. Amazingly, they will all be in class tomorrow. ",
+      "exits": [
+        {
+          "verb": "EAST",
+          "target": "START",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Ballantine": {
+      "name": "Ballantine",
+      "desc": "'Philanthrapy at work' reads signs around Ballantine Hall. They probably won't be done for another ten years.",
+      "exits": [
+        {
+          "verb": "NORTH",
+          "target": "Fountain",
+          "condition": ""
+        },
+        {
+          "verb": "SOUTH",
+          "target": "Dunn Woods",
+          "condition": ""
+        },
+        {
+          "verb": "WEST",
+          "target": "IMU",
+          "condition": ""
+        },
+        {
+          "verb": "EAST",
+          "target": "Musical Arts Center",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Third Street": {
+      "name": "Third Street",
+      "desc": "Busses and cars fly past, while students seem to challenge them in a game of chicken. You can faintly smell pizza coming from Mother Bears, the best pizza in Bloomington. ",
+      "exits": [
+        {
+          "verb": "NORTH",
+          "target": "Dunn Woods",
+          "condition": ""
+        },
+        {
+          "verb": "WEST",
+          "target": "Law School",
+          "condition": ""
+        },
+        {
+          "verb": "EAST",
+          "target": "Jacobs",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Jacobs": {
+      "name": "Jacobs",
+      "desc": " Students carrying all manner of instruments run back and forth outside of Jacobs School of Music. One student intricately explains the difference between a violin and a viola to anyone walking by. ",
+      "exits": [
+        {
+          "verb": "NORTH",
+          "target": "Ballantine",
+          "condition": ""
+        },
+        {
+          "verb": "WEST",
+          "target": "Third Street",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Musical Arts Center": {
+      "name": "Musical Arts Center",
+      "desc": "An odd assortment of bright red shapes sits in front of the Musical Arts Center. That's what modern art looks like, you suppose. ",
+      "exits": [
+        {
+          "verb": "NORTH",
+          "target": "Fountain",
+          "condition": ""
+        },
+        {
+          "verb": "WEST",
+          "target": "Ballantine",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Fountain": {
+      "name": "Showalter Fountain",
+      "desc": "A beautiful fountain sits at the center of three buildings. Students walk in the street, daring busses to run them down in a desperate hope of free tuition. ",
+      "exits": [
+        {
+          "verb": "NORTH",
+          "target": "Kelly",
+          "condition": ""
+        },
+        {
+          "verb": "SOUTH",
+          "target": "Ballantine",
+          "condition": ""
+        },
+        {
+          "verb": "WEST",
+          "target": "IMU",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Kelly": {
+      "name": "Kelly School of Business",
+      "desc": "Students flood the area outside of the business school. Many of them wear suits that don't quite fit, and you often hear them explain to others 'Yeah, I was a direct admit to Kelly'",
+      "exits": [
+        {
+          "verb": "SOUTH",
+          "target": "Fountain",
+          "condition": ""
+        },
+        {
+          "verb": "WEST",
+          "target": "Assembly Hall",
+          "condition": ""
+        },
+        {
+          "verb": "EAST",
+          "target": "Wells",
+          "condition": ""
+        }
+      ],
+      "inventory": []
+    },
+    "Wells": {
+      "name": "Wells Library",
+      "desc": "As it is the start of the year, the students inside Wells library seem to be full of hope and excitement. However, soon they will begin to forage for beer and Cup of Noodles, getting themselves ready for the long winter and second eight weeks.",
+      "exits": [
+        {
+          "verb": "WEST",
+          "target": "Kelly",
+          "condition": ""
+        },
+        {
+          "verb":"EAST",
+          "target":"END",
+          "condition":""
+        }
+      ],
+      "inventory": []
+    },
+    "Assembly Hall": {
+      "name": "Assembly Hall",
+      "desc": "You look at Assembly Hall and wonder if the men's basketball team will be any good this year. Probably not. ",
+      "exits": [
+        {
+          "verb": "WEST",
+          "target": "Stadium",
+          "condition": ""
+        },
+        {
+          "verb":"EAST",
+          "target":"Kelly",
+          "condition":""
+        }
+      ],
+      "inventory": []
+    }
+    },
+    "END": {
+      "name": "Classroom",
+      "desc": "You take the elevator to the 5th floor and make it to class, just in time! ",
+      "exits": [
+      ],
+      "inventory": []
     }
   }

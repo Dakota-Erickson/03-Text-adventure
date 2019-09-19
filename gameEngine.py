@@ -67,10 +67,10 @@ def normalizeVerb(selection,verbs):
 def end_game(winning,points,moves):
     if winning:
         print('You have won! Congratulations')
-        print('You scored {points} points in {moves} moves! Nicely done!'.format(moves=moves, points=points))
+        print('You got to class just in time!')
     else:
         print('Thanks for playing!')
-        print('You scored {points} points in {moves} moves. See you next time!'.format(moves=moves, points=points))
+        print('You got lost and couldnt make it to class in time! Oh well!')
 
 
 
