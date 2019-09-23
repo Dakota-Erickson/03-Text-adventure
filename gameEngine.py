@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 
 
 
+    
 
 # Game loop functions
 def render(game,current,moves,points):
