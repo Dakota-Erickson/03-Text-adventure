@@ -1,0 +1,38 @@
+Name: Jeremy Maldonado
+Date: 9/23/2019
+Project: 03-Text-adventure
+Peer's repository: https://github.com/Dakota-Erickson/03-Text-adventure
+
+
+
+What is something you learned by reviewing your peer's project?
+
+I learned how I would end the game.
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+
+As above how I would go at ending the game.
+
+What suggestions would you have for your peer to improve his/her code?
+
+There is not much room for improvement in terms of improving their code. It is clean and neat. 
+
+What could have been clearer or better commented?
+
+I would maybe have given instructions on how to play.
+
+Was there anything in the code that was confusing to you? If so, what?
+
+There was nothing about the code that was confusing or unclear.
+
+Does the repository contain an appropriate LICENSE?
+
+Yes it does. It contains the year and their name.
+
+What is something he/she could add to the README.md to make it more descriptive?
+
+Again they could have added instructions.
+
+Pay a compliment to your peer based on the quality of his/her code.
+
+Their code is neat and well made. There wasnt much room for error in this project anyway.
